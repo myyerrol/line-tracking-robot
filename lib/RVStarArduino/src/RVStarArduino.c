@@ -1,4 +1,4 @@
-#include "RVStarToArduino.h"
+#include "RVStarArduino.h"
 
 static const uint32_t GPIO_CLK_ARR[] = {
     RCU_GPIOC,
@@ -245,13 +245,13 @@ void initTimerPWMMode(uint8_t pin) {
     timer_enable(timer);
 }
 
-int analogRead(uint8_t pin) {
+// int analogRead(uint8_t pin) {
 
-}
+// }
 
-void analogReference(uint8_t mode) {
+// void analogReference(uint8_t mode) {
 
-}
+// }
 
 void analogWrite(uint8_t pin, int val) {
     uint32_t timer      = TIMER_ARR[pin];

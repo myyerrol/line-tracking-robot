@@ -4,7 +4,7 @@
 #include "gd32vf103.h"
 #include "gd32vf103_libopt.h"
 
-#include "RVStarToArduino.h"
+#include "RVStarArduino.h"
 
 #define MOTOR_A       0
 #define MOTOR_B       1

@@ -1,5 +1,5 @@
-#ifndef RVSTAR_TO_ARDUINO_H
-#define RVSTAR_TO_ARDUINO_H
+#ifndef RVSTAR_ARDUINO_H
+#define RVSTAR_ARDUINO_H
 
 #ifdef cplusplus
 extern "C" {
@@ -94,4 +94,4 @@ unsigned long millis(void);
 }
 #endif
 
-#endif // RVSTAR_TO_ARDUINO_H
+#endif // RVSTAR_ARDUINO_H
