@@ -1,10 +1,8 @@
 #ifndef LTR_MAIN_H
 #define LTR_MAIN_H
 
-#include "gd32vf103.h"
-#include "gd32vf103_libopt.h"
-
 #include "RVStarArduino.h"
+#include "Wire.h"
 
 #define MOTOR_A       0
 #define MOTOR_B       1
