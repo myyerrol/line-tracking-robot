@@ -4,8 +4,8 @@ int main(void) {
     Wire.begin();
 
     while (1) {
-        delay(1000);
         uint16_t a = analogRead(A0);
         printf("value: %d\n", a);
+        delay(1000);
     }
 }
