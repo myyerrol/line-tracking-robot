@@ -12,7 +12,7 @@
 #define PIN_MOTOR_BIN1 7
 #define PIN_MOTOR_BIN2 8
 #define PIN_MOTOR_PWMA 9
-#define PIN_MOTOR_PWMB 10
+#define PIN_MOTOR_PWMB 11
 
 typedef enum MotorState {
     MOTOR_FRONT,
