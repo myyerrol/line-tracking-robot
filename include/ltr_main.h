@@ -14,6 +14,13 @@
 #define PIN_MOTOR_PWMA 9
 #define PIN_MOTOR_PWMB 11
 
+#define MOTOR_SPEED_REF 120
+
+#define DEBUG_ADC_VALUE
+#define DEBUG_MTR_VALUE
+#define DEBUG_PID_CYCLE
+#define DEBUG_PID_VALUE
+
 typedef enum MotorState {
     MOTOR_FRONT,
     MOTOR_BACK,

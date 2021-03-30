@@ -58,7 +58,7 @@ void setMotorDirection(uint8_t motor, MotorState state) {
 }
 
 void setMotorSpeed(uint8_t motor, int16_t speed) {
-    speed = constrain(abs(speed), 0, 255);
+    speed = constrain(speed, 0, 255);
 
     if (motor == MOTOR_A) {
         analogWrite(PIN_MOTOR_PWMA, speed);
