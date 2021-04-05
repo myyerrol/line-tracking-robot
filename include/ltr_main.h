@@ -2,7 +2,6 @@
 #define LTR_MAIN_H
 
 #include "RVStarArduino.h"
-#include "Wire.h"
 
 #define MOTOR_A        0
 #define MOTOR_B        1
