@@ -1,7 +1,7 @@
 #include "ltr_main.h"
 
 float g_turn_kp = 20.0;
-float g_turn_ki = 1.0;
+float g_turn_ki = 0.0;
 float g_turn_kd = 5.0;
 float g_turn_p  = 0.0;
 float g_turn_i  = 0.0;
@@ -36,7 +36,7 @@ void cacluteTurnPID(void) {
 
         // 计算转向环PID
         g_turn_p = g_turn_kp * turn_error;
-        // g_turn_i = g_turn_ki * (g_turn_i + turn_error);
+        g_turn_i = g_turn_ki * (g_turn_i + turn_error);
         g_turn_d = g_turn_kd * (turn_error - g_turn_error_last);
         float turn_sum = (g_turn_p + g_turn_i + g_turn_d) / 100;
 
