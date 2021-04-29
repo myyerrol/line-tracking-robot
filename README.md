@@ -19,6 +19,6 @@ This is a small three wheeled robot that can realize the functions of autonomous
   git clone --recursive git@github.com:myyerrol/line_tracking_robot.git
   ```
 
-3. Start **PlatformIO**, and select project's directory.
+3. Start **PlatformIO**, and select repository's directory.
 
 4. Compile code and upload to rvstar board.
