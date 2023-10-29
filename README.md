@@ -1,4 +1,4 @@
-# line_tracking_robot
+# line-tracking-robot
 
 ![line_tracking_robot](./.images/line_tracking_robot.jpg)
 
@@ -16,7 +16,7 @@ This is a small three wheeled robot that can realize the functions of autonomous
   ```sh
   mkdir ~/Workspaces
   cd ~/Workspaces
-  git clone --recursive git@github.com:myyerrol/line_tracking_robot.git
+  git clone --recursive git@github.com:myyerrol/line-tracking-robot.git
   ```
 
 3. Start **PlatformIO**, and select repository's directory.
